@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CalculatorXr</title>
+</head>
+
+<body>
+
+    <!--the calculator container-->
+    <h1>Taschenrechner XR</h1>
+    <div class="container">
+        <!--the display or result section-->
+        <div class="display">
+            <p id="display-box">0</p>
+
+
+        </div>
+
+        <!--buttons section-->
+        <!--entities https://symbl.cc/en/html-entities/-->
+        <!--function line1-->
+        <div class="buttons">
+            <div class="button action-btn" id="clear">AC</div>
+            <div class="button action-btn" id="del">&#10594;</div>
+            <div class="button action-btn" id="percentage">&#8226</div>
+            <div class="button operator-btn" id="divide">&#247;</div>
+
+            <!--7-9 number + operation (x)-->
+            <div class="button num-btn seven">7</div>
+            <div class="button num-btn eight">8</div>
+            <div class="button num-btn nine">9</div>
+            
+            <div class="button operator-btn multiply">&#215;</div>
+
+            <!--4-6 + operator minus (-)-->
+            <div class="button num-btn four">4</div>
+            <div class="button num-btn five">5</div>
+            <div class="button num-btn six">6</div>
+
+            <div class="button opeoperator-btn subs">&#8212;</div>
+
+            <!--1-3 + operator plus  (+)-->
+            <div class="button num-btn seven">1</div>
+            <div class="button num-btn two">2</div>
+            <div class="button num-btn three">3</div>
+
+            <div class="button operator-btn add">&#43;</div>
+
+            <!--0-   operator equal  (=)-->
+            <div class="button num-btn zero">0</div>
+            <div class="button action-btn" id="square"> &#8730;</div>
+
+            <div class="button num-btn" id="point">&#46;</div>
+
+            <div class="button operator-btn" id="total">&#61;</div>
+
+        </div>
+    </div>
+
+
+
+    <!--javascript code-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

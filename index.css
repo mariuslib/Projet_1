@@ -1,0 +1,77 @@
+body{
+    background: #dde1e7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background: #dde1e7;
+    width: 320px;
+    height: 550px;
+    border-radius: .5em;
+    box-shadow: -3px -3px 7px #ffffff73, 
+    2px 2px 5px rgba(94, 104, 121, 0.288);
+    margin: 0 auto;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.container .display{
+    width: 100%;
+    height: 150px;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+    
+}
+
+.container .display p{
+    font-size: 30pt;
+    overflow: auto;
+    text-align: right;
+}
+
+/*set direction of buttons*/
+/*https://freshman.tech/css-grid-calculator/*/
+.container .buttons{
+    display:grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 1em;
+}
+
+.container .buttons .button,.container .buttons.num-button{
+   cursor: grab;
+    text-align: center;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #babecc,
+    -5px -5px 10px #ffffff73;
+
+}
+
+.btn:hover{
+    color: #3498db;
+}
+
+
+.action-btn{
+    background-color: #d8dbdd;
+
+    color: gray;
+    font-weight: bolder;
+}
+
+.operand-btn{
+    background-color: #d8dbdd;
+    color: #4fa554;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.operand{
+    background: '#5e4bb6';
+}

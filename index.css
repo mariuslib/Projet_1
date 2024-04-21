@@ -29,6 +29,7 @@ body{
     font-size: 30pt;
     overflow: auto;
     text-align: right;
+    background-color: #ece7e773;
 }
 
 /*set direction of buttons*/
